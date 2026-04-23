@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "HerCycle",
+    "slug": "hercycle",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "icon": "./icon.png",
+    "splash": {
+      "image": "./icon.png",
+      "backgroundColor": "#FFF5F8",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.shubhamkuthe.hercycle",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.shubhamkuthe.hercycle",
+      "adaptiveIcon": {
+        "foregroundImage": "./icon.png",
+        "backgroundColor": "#FFF5F8"
+      },
+      "permissions": [
+        "POST_NOTIFICATIONS"
+      ]
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-notifications",
+      "@react-native-community/datetimepicker",
+      "expo-asset",
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "abf74e51-6626-466f-b907-1552c4d2b165"
+      }
+    },
+    "owner": "shubham2510"
+  }
+}

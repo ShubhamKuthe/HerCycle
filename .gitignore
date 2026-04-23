@@ -1,0 +1,14 @@
+node_modules/
+.expo/
+.expo-shared/
+
+.env
+expo-server.log
+expo-server.err.log
+
+.DS_Store
+Thumbs.db
+
+dist/
+build/
+.expo-export-check/
